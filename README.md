@@ -61,7 +61,7 @@ The automated run on **30 October 2026** contained four cases: two passes and tw
 | [Changelog](CHANGELOG.md) | Dated project history |
 
 ## Evidence
-Seven anonymized screenshots are published in the [screenshots directory](screenshots/) and cross-referenced in the [evidence register](docs/10-evidence-register.md). The images capture the agent configuration, Dataverse queries, conversational responses and evaluation findings.
+Seven anonymized screenshots are published in the [screenshots directory](screenshots/README.md) and cross-referenced in the [evidence register](docs/10-evidence-register.md). The images capture the agent configuration, Dataverse queries, conversational responses and evaluation findings.
 
 ![Copilot Studio evaluation summary: four test cases, two passed and two failed](screenshots/01-copilot-studio-evaluation-initial-results.png.png)
 
