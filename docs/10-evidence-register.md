@@ -1,6 +1,6 @@
 # 10 — Evidence register
 
-Seven anonymized screenshots have been uploaded to the [screenshots directory](../screenshots/). The table links each evidence item to its original published filename (including the double `.png.png` extension where present).
+Seven anonymized screenshots have been uploaded to the [screenshots directory](../screenshots/README.md). The table links each evidence item to its original published filename (including the double `.png.png` extension where present).
 
 | ID | Evidence subject | Screenshot | Documentation |
 | --- | --- | --- | --- |
