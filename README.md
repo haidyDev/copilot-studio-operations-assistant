@@ -61,7 +61,15 @@ The automated run on **30 October 2026** contained four cases: two passes and tw
 | [Changelog](CHANGELOG.md) | Dated project history |
 
 ## Evidence
-Seven redacted screenshots were collected to support the case study. See the [evidence register](docs/10-evidence-register.md) for the image inventory and upload status. The written analysis is published independently of image upload.
+Seven anonymized screenshots are published in the [screenshots directory](screenshots/) and cross-referenced in the [evidence register](docs/10-evidence-register.md). The images capture the agent configuration, Dataverse queries, conversational responses and evaluation findings.
+
+![Copilot Studio evaluation summary: four test cases, two passed and two failed](screenshots/01-copilot-studio-evaluation-initial-results.png.png)
+
+*Figure 1 — Initial automated evaluation: 2 of 4 cases passed (50%). The failures are investigated rather than omitted.*
+
+![Copilot Studio agent overview](screenshots/06-copilot-studio-agent-overview.png)
+
+*Figure 2 — Agent overview in the development environment.*
 
 ## Reuse and boundaries
 This repository is a **technical case study**, not a packaged, importable Copilot Studio solution. It does not contain a Dataverse database export, credentials or a deployment pipeline. The source organization is intentionally not named in the public narrative.
