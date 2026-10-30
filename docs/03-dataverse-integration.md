@@ -50,3 +50,13 @@ The reservations query is scoped to the selected order's identifier. This is mor
 
 ## Validation boundary
 These are tool configuration patterns and observed behavior, not a published connector export or a full schema migration script.
+
+## Configuration screenshots
+
+![Dataverse Orders retrieval tool and dynamically populated OData filter input](../screenshots/04-dataverse-ai-dynamic-odata-filter.png.png)
+
+*Figure 1 — Orders lookup: AI-generated OData filter based on the order number.*
+
+![Dataverse Reservations retrieval tool and order GUID lookup filter](../screenshots/05-dataverse-related-records-guid-filter.png.png)
+
+*Figure 2 — Related reservations lookup: filter uses the Dataverse order GUID rather than the human-readable order number.*
