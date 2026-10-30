@@ -46,3 +46,21 @@ Neither should be hidden or relabeled as a pass. Both are recorded as **reported
 
 ## Reproducibility limits
 The repository documents visible configuration and screenshots, not a complete exported agent package or an automated CI test harness. Service quotas, model versions, credentials and data state may affect reruns.
+
+## Screenshot evidence
+
+![Initial Copilot Studio evaluation summary showing 50 percent pass rate](../screenshots/01-copilot-studio-evaluation-initial-results.png.png)
+
+*Figure 1 — Initial evaluation overview (2 pass, 2 fail, 4 total cases).*
+
+![Missing-order evaluation case with apparently correct not-found response marked as failed](../screenshots/02-evaluation-false-negative-analysis.png.png)
+
+*Figure 2 — The missing-order response and evaluator judgment, illustrating an apparent grading false negative.*
+
+![Generative orchestration planner rate-limit failure detail](../screenshots/03-evaluation-orchestration-rate-limit.png.png)
+
+*Figure 3 — Service-side orchestration rate limit (`GenAIToolPlannerRateLimitReached`) during evaluation.*
+
+![Agent test conversation showing Dataverse-backed order retrieval](../screenshots/07-agent-dataverse-query-response.png.png)
+
+*Figure 4 — Interactive test conversation used as complementary qualitative evidence.*
