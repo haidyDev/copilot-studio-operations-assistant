@@ -31,3 +31,13 @@ Entä tilaus AR--9999, paljonko siinä on osallistujia?
 
 ## Read-only implementation note
 The agent's natural-language instructions say not to modify data. The observed tools are read operations, which is the more important technical constraint. Effective access still depends on the connected Dataverse identity, permissions, environment settings and future tool additions.
+
+## Configuration evidence
+
+![Copilot Studio agent overview with model and configuration details](../screenshots/06-copilot-studio-agent-overview.png)
+
+*Figure 1 — Copilot Studio agent overview captured during development.*
+
+![Copilot Studio test chat with order retrieval responses](../screenshots/07-agent-dataverse-query-response.png.png)
+
+*Figure 2 — Test conversation demonstrating the agent's Finnish-language responses.*
